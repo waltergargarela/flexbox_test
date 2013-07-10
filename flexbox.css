@@ -1,0 +1,268 @@
+.main {
+	width:120px;
+	background:white;
+	height:auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	-webkit-flex-flow: row;
+	-moz-flex-flow: row;
+	-ms-flex-flow: row;
+	-o-flex-flow: row;
+	flex-flow: row;
+}
+.main a {
+	font-family:Helvetica, Verdana, open-serif;
+	font-style:italic;
+	font-size:12px;
+	margin:10px;
+}
+
+.main div {
+	font-size:8px;
+	-webkit-flex:1 1 auto;
+	-moz-flex:1 1 auto;
+	-ms-flex:1 1 auto;
+	-o-flex:1 1 auto;
+	flex:1 1 auto;
+	/*
+		A propriedade FLEX é uma atalho para a mesma coisa escrita abaixo
+		-webkit-flex-basis:auto;
+		-webkit-flex-shrink:1;
+		-webkit-flex-grow:1;
+	*/
+    width:50px;
+    height:30px;
+		margin:0 2px 2px 0;
+		padding:3px 0 0 5px;
+		
+}
+
+.main div.Line1Div1 {
+	background:#000000;
+    -webkit-order:1;
+    -moz-order:1;
+    -ms-order:1;
+    -o-order:1;
+    order:1;
+}
+.main div.Line1Div2 {
+	background:#2b2e34;
+    -webkit-order:2;
+    -moz-order:2;
+    -ms-order:2;
+    -o-order:2;
+    order:2;
+}
+.main div.Line1Div3 {
+	background:#565d69;
+    -webkit-order:3;
+    -moz-order:3;
+    -ms-order:3;
+    -o-order:3;
+    order:3;
+}
+.main div.Line1Div4 {
+	background:#818b9e;
+    -webkit-order:4;
+    -moz-order:4;
+    -ms-order:4;
+    -o-order:4;
+    order:4;
+}
+
+.main div.Line2Div1 {
+	background:#909bb0;
+    -webkit-order:1;
+    -moz-order:1;
+    -ms-order:1;
+    -o-order:1;
+    order:1;
+}
+.main div.Line2Div2 {
+	background:#b1b9c7;
+    -webkit-order:2;
+    -moz-order:2;
+    -ms-order:2;
+    -o-order:2;
+    order:2;
+}
+.main div.Line2Div3 {
+	background:#d2d7df;
+    -webkit-order:3;
+    -moz-order:3;
+    -ms-order:3;
+    -o-order:3;
+    order:3;
+}
+.main div.Line2Div4 {
+	background:#f3f5f7;
+    -webkit-order:4;
+    -moz-order:4;
+    -ms-order:4;
+    -o-order:4;
+    order:4;
+}
+.main div.Line3Div1 {
+	background:#001b28;
+    -webkit-order:1;
+    -moz-order:1;
+    -ms-order:1;
+    -o-order:1;
+    order:1;
+}
+.main div.Line3Div2 {
+	background:#003651;
+    -webkit-order:2;
+    -moz-order:2;
+    -ms-order:2;
+    -o-order:2;
+    order:2;
+}
+.main div.Line3Div3 {
+	background:#005f8e;
+    -webkit-order:3;
+    -moz-order:3;
+    -ms-order:3;
+    -o-order:3;
+    order:3;
+}
+.main div.Line3Div4 {
+	background:#0088cc;
+    -webkit-order:4;
+    -moz-order:4;
+    -ms-order:4;
+    -o-order:4;
+    order:4;
+}
+.main div.Line4Div1 {
+	background:#3d1400;
+    -webkit-order:1;
+    -moz-order:1;
+    -ms-order:1;
+    -o-order:1;
+    order:1;
+}
+.main div.Line4Div2 {
+	background:#a33600;
+    -webkit-order:2;
+    -moz-order:2;
+    -ms-order:2;
+    -o-order:2;
+    order:2;
+}
+.main div.Line4Div3 {
+	background:#cc4400;
+    -webkit-order:3;
+    -moz-order:3;
+    -ms-order:3;
+    -o-order:3;
+    order:3;
+}
+.main div.Line4Div4 {
+	background:#d66932;
+    -webkit-order:4;
+    -moz-order:4;
+    -ms-order:4;
+    -o-order:4;
+    order:4;
+}
+.main div.Line5Div1 {
+	background:#660000;
+    -webkit-order:1;
+    -moz-order:1;
+    -ms-order:1;
+    -o-order:1;
+    order:1;
+}
+.main div.Line5Div2 {
+	background:#b20000;
+    -webkit-order:2;
+    -moz-order:2;
+    -ms-order:2;
+    -o-order:2;
+    order:2;
+}
+.main div.Line5Div3 {
+	background:#ff0000;
+    -webkit-order:3;
+    -moz-order:3;
+    -ms-order:3;
+    -o-order:3;
+    order:3;
+}
+.main div.Line5Div4 {
+	background:#ff1919;
+    -webkit-order:4;
+    -moz-order:4;
+    -ms-order:4;
+    -o-order:4;
+    order:4;
+}
+.main div.Line6Div1 {
+	background:#666600;
+    -webkit-order:1;
+    -moz-order:1;
+    -ms-order:1;
+    -o-order:1;
+    order:1;
+}
+.main div.Line6Div2 {
+	background:#999900;
+    -webkit-order:2;
+    -moz-order:2;
+    -ms-order:2;
+    -o-order:2;
+    order:2;
+}
+.main div.Line6Div3 {
+	background:#cccc00;
+    -webkit-order:3;
+    -moz-order:3;
+    -ms-order:3;
+    -o-order:3;
+    order:3;
+}
+.main div.Line6Div4 {
+	background:#ffff19;
+    -webkit-order:4;
+    -moz-order:4;
+    -ms-order:4;
+    -o-order:4;
+    order:4;
+}
+.main div.Line7Div1 {
+	background:#003300;
+    -webkit-order:1;
+    -moz-order:1;
+    -ms-order:1;
+    -o-order:1;
+    order:1;
+}
+.main div.Line7Div2 {
+	background:#004c00;
+    -webkit-order:2;
+    -moz-order:2;
+    -ms-order:2;
+    -o-order:2;
+    order:2;
+}
+.main div.Line7Div3 {
+	background:#006600;
+    -webkit-order:3;
+    -moz-order:3;
+    -ms-order:3;
+    -o-order:3;
+    order:3;
+}
+.main div.Line7Div4 {
+	background:#008000;
+    -webkit-order:4;
+    -moz-order:4;
+    -ms-order:4;
+    -o-order:4;
+    order:4;
+}
