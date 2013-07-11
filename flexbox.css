@@ -1,5 +1,5 @@
 .main {
-	width:120px;
+	width:620px;
 	background:white;
 	height:auto;
 	display: -webkit-flex;
@@ -15,14 +15,19 @@
 	flex-flow: row;
 }
 .main a {
-	font-family:Helvetica, Verdana, open-serif;
-	font-style:italic;
-	font-size:12px;
-	margin:10px;
+	font-family: Helvetica, Verdana, open-serif;
+	font-style: italic;
+	font-size: 12px;
+	margin: 10px;
+	width: 80px;
 }
 
 .main div {
-	font-size:8px;
+  font-family:Helvetica,Verdana,Arial;
+	font-size: 12px;
+	font-weight:bold;
+	color: #FFF;
+	text-shadow: 0 15px 0 #000;
 	-webkit-flex:1 1 auto;
 	-moz-flex:1 1 auto;
 	-ms-flex:1 1 auto;
@@ -34,10 +39,10 @@
 		-webkit-flex-shrink:1;
 		-webkit-flex-grow:1;
 	*/
-    width:50px;
-    height:30px;
-		margin:0 2px 2px 0;
-		padding:3px 0 0 5px;
+	  width:90px;
+    height: 50px;
+		margin: 0 2px 2px 0;
+		padding: 3px 0 0 5px;
 		
 }
 
@@ -74,6 +79,8 @@
     order:4;
 }
 
+
+
 .main div.Line2Div1 {
 	background:#909bb0;
     -webkit-order:1;
@@ -106,6 +113,8 @@
     -o-order:4;
     order:4;
 }
+
+
 .main div.Line3Div1 {
 	background:#001b28;
     -webkit-order:1;
@@ -138,6 +147,8 @@
     -o-order:4;
     order:4;
 }
+
+
 .main div.Line4Div1 {
 	background:#3d1400;
     -webkit-order:1;
@@ -170,6 +181,8 @@
     -o-order:4;
     order:4;
 }
+
+
 .main div.Line5Div1 {
 	background:#660000;
     -webkit-order:1;
@@ -202,6 +215,8 @@
     -o-order:4;
     order:4;
 }
+
+
 .main div.Line6Div1 {
 	background:#666600;
     -webkit-order:1;
@@ -234,6 +249,8 @@
     -o-order:4;
     order:4;
 }
+
+
 .main div.Line7Div1 {
 	background:#003300;
     -webkit-order:1;
@@ -266,3 +283,5 @@
     -o-order:4;
     order:4;
 }
+
+
