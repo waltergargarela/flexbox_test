@@ -1,0 +1,140 @@
+
+.sample_button{
+	width:620px;
+	margin: 30px 200px 30px 15px;
+	}
+
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;/*tom médio*/
+  *background-color: #d2d7df; /*tom escuro*/
+  background-image: -moz-linear-gradient(top, #ffffff, #d2d7df);/*tom claro + tom escuro*/
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#d2d7df));
+  background-image: -webkit-linear-gradient(top, #ffffff, #d2d7df);
+  background-image: -o-linear-gradient(top, #ffffff, #d2d7df);
+  background-image: linear-gradient(to bottom, #ffffff, #d2d7df);
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-color: #d2d7df #d2d7df #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #0088cc;
+  background-color: #d2d7df;
+  *background-color: #d9d9d9;
+}
+
+
+
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #005f8e;/*tom médio*/
+  *background-color: #003651; /*tom escuro*/
+  background-image: -moz-linear-gradient(top, #0088cc, #003651); /*tom claro + tom escuro*/
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#003651));
+  background-image: -webkit-linear-gradient(top, #0088cc, #003651);
+  background-image: -o-linear-gradient(top, #0088cc, #003651);
+  background-image: linear-gradient(to bottom, #0088cc, #003651);
+  background-repeat: repeat-x;
+  border-color: #003651 #003651 #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  color: #d2d7df;
+  background-color: #0088cc;
+  *background-color: #003bb3;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #003399;
+}
+
+
+
+.btn-warning {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #cc4400;
+  *background-color: #a33600;
+  background-image: -moz-linear-gradient(top, #d66932, #a33600);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d66932), to(#a33600));
+  background-image: -webkit-linear-gradient(top, #d66932, #a33600);
+  background-image: -o-linear-gradient(top, #d66932, #a33600);
+  background-image: linear-gradient(to bottom, #d66932, #a33600);
+  background-repeat: repeat-x;
+  border-color: #a33600 #a33600 #ad6704;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled] {
+  color: #ffffff;
+  background-color: #a33600;
+  *background-color: #df8505;
+  opacity:0.8;
+}
+.btn-warning:active,
+.btn-warning.active {
+  color:#333333;
+  background-color: #c67605;
+  background-image: linear-gradient(to top, #d66932, #a33600);
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
